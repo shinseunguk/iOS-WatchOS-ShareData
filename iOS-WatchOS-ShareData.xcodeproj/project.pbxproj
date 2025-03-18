@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ACF2CC612D88F83A00E1D7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF2CC482D88F83900E1D7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF2CC4F2D88F83900E1D7B1;
+			remoteInfo = "iOS-WatchOS-ShareData";
+		};
+		ACF2CC6B2D88F83A00E1D7B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACF2CC482D88F83900E1D7B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF2CC4F2D88F83900E1D7B1;
+			remoteInfo = "iOS-WatchOS-ShareData";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACF2CC502D88F83900E1D7B1 /* iOS-WatchOS-ShareData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-WatchOS-ShareData.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2CC602D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-WatchOS-ShareDataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF2CC6A2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-WatchOS-ShareDataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ACF2CC522D88F83900E1D7B1 /* iOS-WatchOS-ShareData */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-WatchOS-ShareData";
+			sourceTree = "<group>";
+		};
+		ACF2CC632D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-WatchOS-ShareDataTests";
+			sourceTree = "<group>";
+		};
+		ACF2CC6D2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iOS-WatchOS-ShareDataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACF2CC4D2D88F83900E1D7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC5D2D88F83A00E1D7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC672D88F83A00E1D7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACF2CC472D88F83900E1D7B1 = {
+			isa = PBXGroup;
+			children = (
+				ACF2CC522D88F83900E1D7B1 /* iOS-WatchOS-ShareData */,
+				ACF2CC632D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests */,
+				ACF2CC6D2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests */,
+				ACF2CC512D88F83900E1D7B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACF2CC512D88F83900E1D7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF2CC502D88F83900E1D7B1 /* iOS-WatchOS-ShareData.app */,
+				ACF2CC602D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests.xctest */,
+				ACF2CC6A2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACF2CC4F2D88F83900E1D7B1 /* iOS-WatchOS-ShareData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2CC742D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareData" */;
+			buildPhases = (
+				ACF2CC4C2D88F83900E1D7B1 /* Sources */,
+				ACF2CC4D2D88F83900E1D7B1 /* Frameworks */,
+				ACF2CC4E2D88F83900E1D7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ACF2CC522D88F83900E1D7B1 /* iOS-WatchOS-ShareData */,
+			);
+			name = "iOS-WatchOS-ShareData";
+			packageProductDependencies = (
+			);
+			productName = "iOS-WatchOS-ShareData";
+			productReference = ACF2CC502D88F83900E1D7B1 /* iOS-WatchOS-ShareData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACF2CC5F2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2CC772D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareDataTests" */;
+			buildPhases = (
+				ACF2CC5C2D88F83A00E1D7B1 /* Sources */,
+				ACF2CC5D2D88F83A00E1D7B1 /* Frameworks */,
+				ACF2CC5E2D88F83A00E1D7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF2CC622D88F83A00E1D7B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACF2CC632D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests */,
+			);
+			name = "iOS-WatchOS-ShareDataTests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-WatchOS-ShareDataTests";
+			productReference = ACF2CC602D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACF2CC692D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACF2CC7A2D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareDataUITests" */;
+			buildPhases = (
+				ACF2CC662D88F83A00E1D7B1 /* Sources */,
+				ACF2CC672D88F83A00E1D7B1 /* Frameworks */,
+				ACF2CC682D88F83A00E1D7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACF2CC6C2D88F83A00E1D7B1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ACF2CC6D2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests */,
+			);
+			name = "iOS-WatchOS-ShareDataUITests";
+			packageProductDependencies = (
+			);
+			productName = "iOS-WatchOS-ShareDataUITests";
+			productReference = ACF2CC6A2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACF2CC482D88F83900E1D7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					ACF2CC4F2D88F83900E1D7B1 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					ACF2CC5F2D88F83A00E1D7B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ACF2CC4F2D88F83900E1D7B1;
+					};
+					ACF2CC692D88F83A00E1D7B1 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = ACF2CC4F2D88F83900E1D7B1;
+					};
+				};
+			};
+			buildConfigurationList = ACF2CC4B2D88F83900E1D7B1 /* Build configuration list for PBXProject "iOS-WatchOS-ShareData" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACF2CC472D88F83900E1D7B1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACF2CC512D88F83900E1D7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACF2CC4F2D88F83900E1D7B1 /* iOS-WatchOS-ShareData */,
+				ACF2CC5F2D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataTests */,
+				ACF2CC692D88F83A00E1D7B1 /* iOS-WatchOS-ShareDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACF2CC4E2D88F83900E1D7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC5E2D88F83A00E1D7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC682D88F83A00E1D7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACF2CC4C2D88F83900E1D7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC5C2D88F83A00E1D7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACF2CC662D88F83A00E1D7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACF2CC622D88F83A00E1D7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF2CC4F2D88F83900E1D7B1 /* iOS-WatchOS-ShareData */;
+			targetProxy = ACF2CC612D88F83A00E1D7B1 /* PBXContainerItemProxy */;
+		};
+		ACF2CC6C2D88F83A00E1D7B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACF2CC4F2D88F83900E1D7B1 /* iOS-WatchOS-ShareData */;
+			targetProxy = ACF2CC6B2D88F83A00E1D7B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACF2CC722D88F83A00E1D7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACF2CC732D88F83A00E1D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACF2CC752D88F83A00E1D7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-WatchOS-ShareData/Preview Content\"";
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACF2CC762D88F83A00E1D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iOS-WatchOS-ShareData/Preview Content\"";
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareData";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACF2CC782D88F83A00E1D7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-WatchOS-ShareData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-WatchOS-ShareData";
+			};
+			name = Debug;
+		};
+		ACF2CC792D88F83A00E1D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareDataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-WatchOS-ShareData.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOS-WatchOS-ShareData";
+			};
+			name = Release;
+		};
+		ACF2CC7B2D88F83A00E1D7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-WatchOS-ShareData";
+			};
+			name = Debug;
+		};
+		ACF2CC7C2D88F83A00E1D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DC8GM39E89;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.team.iOS-WatchOS-ShareDataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iOS-WatchOS-ShareData";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACF2CC4B2D88F83900E1D7B1 /* Build configuration list for PBXProject "iOS-WatchOS-ShareData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2CC722D88F83A00E1D7B1 /* Debug */,
+				ACF2CC732D88F83A00E1D7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2CC742D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2CC752D88F83A00E1D7B1 /* Debug */,
+				ACF2CC762D88F83A00E1D7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2CC772D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2CC782D88F83A00E1D7B1 /* Debug */,
+				ACF2CC792D88F83A00E1D7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACF2CC7A2D88F83A00E1D7B1 /* Build configuration list for PBXNativeTarget "iOS-WatchOS-ShareDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACF2CC7B2D88F83A00E1D7B1 /* Debug */,
+				ACF2CC7C2D88F83A00E1D7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACF2CC482D88F83900E1D7B1 /* Project object */;
+}
