@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  iOS-WatchOS-ShareData
+//  WatchApp Watch App
 //
 //  Created by ukseung.dev on 3/18/25.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 import WatchConnectivity
 
-class iOSDataManager: NSObject, WCSessionDelegate, ObservableObject {
+class WatchDataManager: NSObject, WCSessionDelegate, ObservableObject {
     @Published var count: Int = 0
     @Published var text: String = ""
     var session: WCSession
@@ -20,24 +20,13 @@ class iOSDataManager: NSObject, WCSessionDelegate, ObservableObject {
         session.activate()
     }
     
-    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: (any Error)?) {
-    }
-    
-    func sessionDidBecomeInactive(_ session: WCSession) {
-    }
-    
-    func sessionDidDeactivate(_ session: WCSession) {
-    }
+    func session(_ session: WCSession, activationDidCompleteWith activationState: WCSessionActivationState, error: Error?) {}
     
     func sendCount() {
         let message = ["count": count]
         session.sendMessage(message, replyHandler: nil) { error in
             print("Error sending message: \(error.localizedDescription)")
         }
-    }
-    
-    func sendTransfer() {
-        session.transferUserInfo(["text": text])
     }
     
     func session(_ session: WCSession, didReceiveMessage message: [String : Any]) {
@@ -47,29 +36,27 @@ class iOSDataManager: NSObject, WCSessionDelegate, ObservableObject {
             }
         }
     }
+    
+    // 다른 기기의 세션으로부터 transferUserInfo() 메서드로 데이터를 받았을 때 호출되는 메서드
+    func session(_ session: WCSession, didReceiveUserInfo userInfo: [String : Any] = [:]) {
+        DispatchQueue.main.async {
+            self.text = userInfo["text"] as? String ?? "nil"
+        }
+    }
 }
 
 struct ContentView: View {
-    @ObservedObject var manager: iOSDataManager = .init()
+    @ObservedObject var manager: WatchDataManager = .init()
     
     var body: some View {
         VStack(spacing: 20) {
             Text("Count: \(manager.count)")
-            Button("increase Count(sendMessage)") {
+            Button("increase Count") {
                 manager.count += 1
                 manager.sendCount()
             }
             
-            Spacer()
-                .frame(height: 80)
-            
-            TextField("Enter Name", text: $manager.text)
-                .textFieldStyle(.roundedBorder)
-                .frame(width: 300)
-            
-            Button("transferUserInfo") {
-                manager.sendTransfer()
-            }
+            Text("\(manager.text)")
         }
         .padding()
     }
